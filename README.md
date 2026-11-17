@@ -13,3 +13,20 @@ This section supplements the maintainer-authored README above. The original text
 - Mark unverified sources, IDs, metrics, benchmark results and external claims as unknown/unverified rather than guessing.
 - Verify setup, execution, tests and public claims against the exact current commit before relying on this repository for hiring, research or academic evaluation.
 - See [MODEL_AUDIT_ROUTER.md](MODEL_AUDIT_ROUTER.md) for independent model review instructions and the merge gate.
+
+---
+
+## Engineering Audit & Handover — 2026-11-17
+
+**Review scope:** default branch `main`; repository tree and README reviewed. Runtime tests were not executed.
+
+### Confirmed findings
+- The reviewed default-branch tree contains project documentation and audit guidance but no executable application source was found.
+- The README describes an AI-powered eye-health companion, but the inspected branch does not contain an implementation that demonstrates screen monitoring, eye-strain detection, or personalized recommendations.
+
+### Next actions
+1. Define the intended inputs and outputs, privacy model, and non-medical scope of the MVP.
+2. Implement a minimal runnable feature and add tests before describing it as an available capability.
+3. Avoid diagnostic or medical claims unless supported by appropriate validation and expert review.
+
+**Verification status:** source-tree inspection only; no runnable product or automated test suite was verified on the reviewed branch.
