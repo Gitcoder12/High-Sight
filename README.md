@@ -30,3 +30,24 @@ This section supplements the maintainer-authored README above. The original text
 3. Avoid diagnostic or medical claims unless supported by appropriate validation and expert review.
 
 **Verification status:** source-tree inspection only; no runnable product or automated test suite was verified on the reviewed branch.
+
+
+---
+
+## Branch Activity & Development History
+
+**Audit date:** 2026-11-18 · **Comparison base:** `main`
+
+| Branch | Difference from `main` | Observed work / changed paths |
+|---|---:|---|
+| `audit/initial-assessment-2026-11-15` | 1 ahead / 1 behind | Initial engineering assessment in `AI_WORKLOG.md` |
+| `docs/portfolio-operating-kit-2026-11-13` | 4 / 3 | Activity log, agent guidance, company-fit notes, contributor guide, feature plan and skills; README has removals as well as additions |
+| `docs/project-status-2026-11-16-high-sight` | 1 / 1 | Project status snapshot: `PROJECT_STATUS.md` |
+| `docs/status-inventory-2026-11-16-v1` | 1 / 1 | Project status inventory: `PROJECT_STATUS.md` |
+
+### Open pull requests observed during this audit
+
+- [PR #4 — project status snapshot](https://github.com/Gitcoder12/High-Sight/pull/4)
+- [PR #3 — engineering audit worklog](https://github.com/Gitcoder12/High-Sight/pull/3)
+
+**Review note:** The portfolio branch removes README content as well as adding docs. Inspect that diff before merging. No branches have been merged or deleted by this documentation update.
