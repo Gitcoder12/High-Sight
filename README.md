@@ -30,3 +30,10 @@ This section supplements the maintainer-authored README above. The original text
 3. Avoid diagnostic or medical claims unless supported by appropriate validation and expert review.
 
 **Verification status:** source-tree inspection only; no runnable product or automated test suite was verified on the reviewed branch.
+
+---
+
+## Examples Used
+- Taking a screen break after a long study session
+- Tracking screen-time patterns across a workday
+- Exploring reminders for prolonged near-screen activity
