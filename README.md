@@ -37,3 +37,27 @@ This section supplements the maintainer-authored README above. The original text
 - Taking a screen break after a long study session
 - Tracking screen-time patterns across a workday
 - Exploring reminders for prolonged near-screen activity
+
+
+---
+
+## Comparison with Existing Open-Source Projects
+
+High-Sight is described as an eye-health companion focused on screen habits and healthier digital behavior. The following projects are relevant adjacent tools for screen breaks and digital wellbeing, not clinical eye-health systems.
+
+| Project | Established focus | Relationship to High-Sight |
+|---|---|---|
+| [Stretchly](https://github.com/hovancik/stretchly) | Cross-platform break-reminder application | A mature reminder tool; High-Sight's proposed distinction is using screen-behavior signals to make reminders more context-aware. |
+| [Workrave](https://github.com/rcaelers/workrave) | Micro-break, rest-break and ergonomic reminder software | Stronger established break scheduling and ergonomics workflow; High-Sight aims to focus more specifically on screen-use patterns. |
+| [ActivityWatch](https://github.com/ActivityWatch/activitywatch) | Open-source automatic time-tracking and activity monitoring | Provides local activity-data infrastructure; High-Sight could use privacy-preserving activity summaries rather than claiming direct eye-strain measurement. |
+
+### Where High-Sight is different
+- **Screen-health framing:** the concept connects screen habits with reminders intended to encourage healthier digital behavior.
+- **Potential context awareness:** activity duration and break patterns could inform reminders beyond fixed timers, if implemented with transparent signals.
+- **Wellbeing-first experience:** the goal is to encourage breaks, not merely record productivity or application usage.
+
+### Where established projects are stronger
+Stretchly and Workrave already provide mature break-reminder workflows; ActivityWatch has an established local activity-monitoring model. The current High-Sight repository audit found documentation but no executable application source, so screen monitoring and eye-strain detection are not yet demonstrated.
+
+### Health, privacy and evidence requirements
+Do not describe the product as diagnosing, detecting or preventing eye disease. Use non-medical language such as screen-break reminders. Minimize collected data, keep it local where practical, explain permissions and add user controls. Any claim about reducing eye strain needs appropriate clinical/ergonomic evidence. This is a concept comparison, not a health-efficacy assessment.
