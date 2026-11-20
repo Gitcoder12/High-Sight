@@ -2,6 +2,13 @@
 AI-powered eye health companion that protects your vision by monitoring screen habits, detecting eye strain, and promoting healthier digital behavior.
 
 
+## Run status
+
+**No runnable website or application is available in the current default branch.** The repository currently contains project documentation and planning material, but no verified executable frontend, server entry point, or local browser URL. There is nothing to launch in a browser yet; do not use guessed commands or localhost addresses.
+
+When an implementation is added, update this section with its real prerequisites, start command, and browser URL only after verifying it from a clean checkout.
+
+
 ---
 
 ## AI-maintained project notes (secondary — 2026-11-13)
